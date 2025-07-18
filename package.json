@@ -1,0 +1,40 @@
+{
+  "name": "@stately-cloud/cli",
+  "version": "0.77.0",
+  "author": "Stately Cloud <support@stately.cloud> (https://stately.cloud/)",
+  "description": "Install the `stately` CLI as part of `npm install` or run it via `npx @stately-cloud/cli`. StatelyDB is a document database built on top of DynamoDB with Elastic Schema that allows you to change your data model any time with automatic backwards compatibility.",
+  "type": "module",
+  "main": "js/index.js",
+  "scripts": {
+    "postinstall": "node ./bin/install.js"
+  },
+  "files": [
+    "package.json",
+    "README.md",
+    "LICENSE.txt",
+    "bin/**"
+  ],
+  "bin": {
+    "stately": "./bin/stately.js"
+  },
+  "homepage": "https://docs.stately.cloud/cli/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/StatelyCloud/cli-install.git"
+  },
+  "keywords": [
+    "database",
+    "nosql",
+    "schema",
+    "statelydb",
+    "cli",
+    "installer"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "Apache-2.0"
+}

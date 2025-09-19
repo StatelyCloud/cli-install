@@ -1,6 +1,6 @@
 {
   "name": "@stately-cloud/cli",
-  "version": "0.88.0",
+  "version": "0.90.0",
   "author": "Stately Cloud <support@stately.cloud> (https://stately.cloud/)",
   "description": "Install the `stately` CLI as part of `npm install` or run it via `npx @stately-cloud/cli`. StatelyDB is a document database built on top of DynamoDB with Elastic Schema that allows you to change your data model any time with automatic backwards compatibility.",
   "type": "module",
